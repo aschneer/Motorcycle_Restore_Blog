@@ -1,0 +1,226 @@
+@font-face {
+	font-family: "calligraffitti";
+	src: url("../fonts/Calligraffitti/Calligraffitti-Regular.ttf");
+}
+@font-face {
+	font-family: "cabin";
+	src: url("../fonts/Cabin/Cabin-Regular.ttf");
+}
+body
+{
+	background-image: url(../assets/tweed/tweed.png);
+}
+h1,h2,h3,h4,h5
+{
+	font-family: "calligraffitti", sans-serif;
+	color: #E6E6E6;
+}
+h1
+{
+	font-weight: bold;
+	font-size: 48pt;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h2
+{
+	font-size: 24pt;
+}
+p
+{
+	color: #E6E6E6;
+	font-family: "cabin", sans-serif;
+	font-size: 16pt;
+	padding-left: 15px;
+	margin: 0px;
+}
+a.thumbnail
+{
+	position: relative;
+	z-index: 10;
+	margin-bottom: 0px;
+/*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
+	background-color: transparent;
+	box-shadow: 0px 0px 8px 2px black;
+	border-style: none;
+	padding: 0px;
+	margin: 1px;
+}
+nav.navbar a
+{
+	font-family: "cabin", sans-serif;
+}
+nav.navbar a.navbar-brand
+{
+/*	color: #33CCFF; */
+	color: white;
+	font-weight: bold;
+}
+a.btn
+{
+	color: black;
+}
+div.row:not(.image)
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header
+{
+	text-align: center;
+}
+section.action span.glyphicon
+{
+	font-size: 50px;
+	color: #E6E6E6;
+	text-shadow: 0px 0px 8px black;
+}
+section.entry
+{
+	position: relative;
+	background-image: url(../assets/tweed/tweed.png);
+	z-index: 1;
+}
+section.entry div.container-fluid div.image div
+{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+div img
+{
+	width: 100%;
+}
+p#footer
+{
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+ul.my-pager
+{
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+ul.my-pager li a
+{
+	position: relative;
+	font-family: "cabin", sans-serif;
+	background-color: transparent;
+	z-index: 10;
+/*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
+/*
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+ul.my-pager li:not(.disabled) a
+{
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+ul.my-pager li:not(.disabled) a:hover
+{
+	color: black;
+}
+ul.my-pager li.disabled a
+{
+	color: #E6E6E6;
+	background-color: transparent;
+}
+div.nav-pager
+{
+	position: fixed;
+	width: 100%;
+}
+
+
+div.v-space-005px
+{
+	margin: 0px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-010px
+{
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-015px
+{
+	margin: 0px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-020px
+{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-025px
+{
+	margin: 0px;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-050px
+{
+	margin: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-075px
+{
+	margin: 0px;
+	padding-top: 37.5px;
+	padding-bottom: 37.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-100px
+{
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+@media (min-width: 768px)
+{
+	div.v-space-dyn-01
+	{
+		margin: 0px;
+		padding-top: 37.5px;
+		padding-bottom: 37.5px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+@media (max-width: 768px)
+{
+	div.v-space-dyn-01
+	{
+		margin: 0px;
+		padding-top: 95px;
+		padding-bottom: 95px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
