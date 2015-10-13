@@ -52,9 +52,16 @@ nav.navbar a
 }
 nav.navbar a.navbar-brand
 {
+/*	This changes the background color
+		of the top left navbar icon ("brand"). */
+	color: #CC0013;
 /*	color: #33CCFF; */
-	color: white;
+/*	color: white; */
 	font-weight: bold;
+}
+ul.dropdown-menu
+{
+	background-color: rgba(215,215,215,1);
 }
 a.btn
 {
